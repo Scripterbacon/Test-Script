@@ -12,13 +12,13 @@ Tab1:AddSlider({
 	Default = 1,
 	Color = Color3.fromRGB(255,255,255),
 	Increment = 1,
-	ValueName = "Set Rebirth Max is 20M Rebirth",
+	ValueName = "Set Rebirth Max is 100M Rebirth",
 	Callback = function(Value)
 SetRebirth = Value
 	end    
 })
 Tab1:AddToggle({
-	Name = "Rebirth",
+	Name = "Auto Rebirth",
 	Default = false,
 	Callback = function(Value)
 AutoRebirth = Value
